@@ -1,0 +1,28 @@
+//
+//  ViewController.swift
+//  Emotune
+//
+//  Created by Sheikh R. Mahmud on 9/8/18.
+//  Copyright © 2018 Sheikh R. Mahmud. All rights reserved.
+//
+
+import UIKit
+
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+
+        var request = URLREQUEST(url: URL(string: "api.genius.com/search"))
+
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
